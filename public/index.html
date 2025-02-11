@@ -2,17 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/heart-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#ff69b4" />
     <meta
       name="description"
-      content="TechSpark'25 Gaming Score Calculator"
+      content="Valentine's Special Love App 💖"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/heart-icon.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <title>TechSpark'25 Gaming Hub</title>
+    <script>
+      const titles = [
+        "Movi 💖✨",
+        "Movi 🩶✨",
+        "Movi 💛✨",
+        "Movi 💜✨"
+      ];
+      let index = 0;
+      setInterval(() => {
+        document.title = titles[index];
+        index = (index + 1) % titles.length;
+      }, 2000);
+    </script>
+    <title>Movi💕✨</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

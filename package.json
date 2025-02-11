@@ -1,11 +1,13 @@
 {
-  "name": "gaming-score-calculator",
+  "name": "movi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
+    "react-confetti": "^6.2.2",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
